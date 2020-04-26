@@ -3,8 +3,8 @@ package database
 import (
 	"errors"
 	"fmt"
-	"github.com/bbcloudGroup/gothic/gothic/bootstrap"
-	"github.com/bbcloudGroup/gothic/gothic/di"
+	"github.com/bbcloudGroup/gothic/bootstrap"
+	"github.com/bbcloudGroup/gothic/di"
 	"github.com/bradfitz/gomemcache/memcache"
 	"github.com/go-redis/redis/v7"
 	"github.com/jinzhu/gorm"
